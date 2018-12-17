@@ -1,12 +1,21 @@
-#include<stdio.h>
-int main()
-{
-int i=2,j=3,k,l;
-k=i/j*j;
-l=j/i*i;
-a=i/j*j;
-b=j/i*i;
-printf("\n %d %d %f %f \n",k,l,a,b);
-return 0;
-}
 
+
+#include<stdio.h>
+
+void main()
+
+{
+
+     int a=7;
+
+     a++;
+
+     if(a!=7)
+
+     printf("%d",a++,--a);
+
+     else
+
+     printf("%d",a++,++a);
+
+}
